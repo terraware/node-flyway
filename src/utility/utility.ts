@@ -81,10 +81,14 @@ export type ExecutionResponse = {
 }
 
 
-export const execute = async (command: string, options: ExecOptions): Promise<ExecutionResponse> => {
+export const execute = async (
+    command: string,
+    options: ExecOptions,
+    execFn: typeof exec = exec
+): Promise<ExecutionResponse> => {
     return new Promise((resolve, reject) => {
         try {
-            exec(
+            execFn(
                 command,
                 options,
                 (err, stdout, stderr) => {
