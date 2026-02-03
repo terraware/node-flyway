@@ -2,7 +2,7 @@ import {inspect} from "util";
 import {Client} from "pg";
 
 
-export const port = 5433;
+export const port = 5432;
 
 export const testConfiguration = {
     url: `jdbc:postgresql://localhost:${port}/postgres`,
