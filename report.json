@@ -1,0 +1,796 @@
+{
+  "individualResults": [
+    {
+      "initialSchemaVersion": "2",
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "MigrationAppliedAfterBaseline",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/5_baseline_migrations/V3__MigrationAppliedAfterBaseline.sql",
+          "executionTime": 10
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:02.977299",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 10
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 5
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 2
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:07.853634",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 8
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 7
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 4
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:12.241522",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 9
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 2
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 2
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:17.274336",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "schemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "rawVersion": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "installedOnUTC": "2026-02-03T21:31:17.372133Z",
+          "state": "Success",
+          "undoable": "No",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "undoFilepath": "",
+          "installedBy": "postgres",
+          "executionTime": 9
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "rawVersion": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "installedOnUTC": "2026-02-03T21:31:17.393058Z",
+          "state": "Success",
+          "undoable": "No",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "undoFilepath": "",
+          "installedBy": "postgres",
+          "executionTime": 2
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "rawVersion": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "installedOnUTC": "2026-02-03T21:31:17.402377Z",
+          "state": "Success",
+          "undoable": "No",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "undoFilepath": "",
+          "installedBy": "postgres",
+          "executionTime": 2
+        }
+      ],
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "allSchemasEmpty": false,
+      "timestamp": "2026-02-03T14:31:18.077099",
+      "operation": "info",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 6
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 2
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 1
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:21.606278",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 9
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 2
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 1
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:26.611386",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 6
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 2
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 1
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:30.324816",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/2_out_of_order_migrations/part_1/V2__TestMigration.sql",
+          "executionTime": 7
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/2_out_of_order_migrations/part_1/V3__AnotherTestMigration.sql",
+          "executionTime": 2
+        }
+      ],
+      "migrationsExecuted": 2,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:34.052552",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "3",
+      "targetSchemaVersion": "1",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/2_out_of_order_migrations/part_2/V1__YetAnotherTestMigration.sql",
+          "executionTime": 14
+        }
+      ],
+      "migrationsExecuted": 1,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [
+        "outOfOrder mode is active. Migration of schema \"public\" may not be reproducible."
+      ],
+      "timestamp": "2026-02-03T14:31:35.235418",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 7
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 3
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 1
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:39.297663",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 10
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 3
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 2
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:42.947734",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 7
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 2
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 2
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:47.291083",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": "3",
+      "targetSchemaVersion": null,
+      "schemaName": "",
+      "migrations": [],
+      "migrationsExecuted": 0,
+      "success": false,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:48.092548",
+      "operation": "migrate",
+      "exception": "Migration V4__NaughtyFailingMigration.sql failed\n------------------------------------------------\nSQL State  : 42P01\nError Code : 0\nMessage    : ERROR: relation \"this_table_does_not_exist\" does not exist\n  Position: 15\nLocation   : test/integration/migrations/3_failing_migrations/V4__NaughtyFailingMigration.sql (/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/3_failing_migrations/V4__NaughtyFailingMigration.sql)\nLine       : 1\nStatement  : SELECT * FROM this_table_does_not_exist\n",
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 11
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 7
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 7
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:31:55.913940",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "2",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 9
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 2
+        }
+      ],
+      "migrationsExecuted": 2,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:32:02.298860",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "4",
+      "schemaName": "random",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/4_migrations_with_multiple_schemas/V1__TestMigration.sql",
+          "executionTime": 8
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/4_migrations_with_multiple_schemas/V2__AnotherTestMigration.sql",
+          "executionTime": 4
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/4_migrations_with_multiple_schemas/V3__YetAnotherTestMigration.sql",
+          "executionTime": 1
+        },
+        {
+          "category": "Versioned",
+          "version": "4",
+          "description": "MigrationOnDifferentSchema",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/4_migrations_with_multiple_schemas/V4__MigrationOnDifferentSchema.sql",
+          "executionTime": 2
+        }
+      ],
+      "migrationsExecuted": 4,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:32:07.306293",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "__test_$PWD_schema",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 9
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 6
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 4
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:32:12.534243",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V1__TestMigration.sql",
+          "executionTime": 8
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V2__AnotherTestMigration.sql",
+          "executionTime": 1
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "YetAnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/1_basic_migrations/V3__YetAnotherTestMigration.sql",
+          "executionTime": 1
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:32:44.769843",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/7_migrations_to_be_repaired/part_1/V1__TestMigration.sql",
+          "executionTime": 6
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/7_migrations_to_be_repaired/part_1/V2__TestMigration.sql",
+          "executionTime": 2
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/7_migrations_to_be_repaired/part_1/V3__AnotherTestMigration.sql",
+          "executionTime": 1
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:32:49.250224",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    },
+    {
+      "initialSchemaVersion": null,
+      "targetSchemaVersion": "3",
+      "schemaName": "",
+      "migrations": [
+        {
+          "category": "Versioned",
+          "version": "1",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/7_migrations_to_be_repaired/part_1/V1__TestMigration.sql",
+          "executionTime": 6
+        },
+        {
+          "category": "Versioned",
+          "version": "2",
+          "description": "TestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/7_migrations_to_be_repaired/part_1/V2__TestMigration.sql",
+          "executionTime": 2
+        },
+        {
+          "category": "Versioned",
+          "version": "3",
+          "description": "AnotherTestMigration",
+          "type": "SQL",
+          "filepath": "/Users/benhamilton/Developer/OpenSource/node-flyway/test/integration/migrations/7_migrations_to_be_repaired/part_1/V3__AnotherTestMigration.sql",
+          "executionTime": 1
+        }
+      ],
+      "migrationsExecuted": 3,
+      "success": true,
+      "flywayVersion": "9.22.3",
+      "database": "postgres",
+      "warnings": [],
+      "timestamp": "2026-02-03T14:32:53.591823",
+      "operation": "migrate",
+      "exception": null,
+      "licenseFailed": false
+    }
+  ]
+}

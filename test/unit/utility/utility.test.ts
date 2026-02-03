@@ -53,7 +53,7 @@ describe('execute', () => {
         ) => {
             const jsonOutput = JSON.stringify({
                 "initialSchemaVersion": "1",
-              "targetSchemaVersion": null,
+                "targetSchemaVersion": null,
                 "schemaName": "",
                 "migrations": [],
                 "success": true,
