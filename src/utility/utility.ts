@@ -88,13 +88,10 @@ export const execute = async (command: string, options: ExecOptions): Promise<Ex
                 command,
                 options,
                 (err, stdout, stderr) => {
-                    if (err == null) {
-                        resolve(
-                            {success: true, response: stdout.toString()}
-                        );
-                    } else {
-                        resolve({success: false, response: stderr.toString()});
-                    }
+                  resolve(
+                        // When run with `-outputType=json`, flyway always writes errors to `stdout`, never `stderr`.
+                        {success: err === null, response: stdout.toString()}
+                    );
                 }
             )
         } catch (error) {
