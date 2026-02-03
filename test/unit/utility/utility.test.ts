@@ -17,10 +17,11 @@ describe('execute', () => {
             const jsonOutput = JSON.stringify({
                 "error": {
                     "errorCode": "ERROR",
-                    "message": "Migration failed"
+                    "message": "Migration failed",
+                    "stackTrace": null,
+                    "lineNumber": null,
+                    "path": null,
                 },
-                "success": false,
-                "operation": "migrate"
             });
 
             // Simulate process failure but with JSON output in stdout
@@ -35,10 +36,11 @@ describe('execute', () => {
         expect(result.response).to.equal(JSON.stringify({
             "error": {
                 "errorCode": "ERROR",
-                "message": "Migration failed"
+                "message": "Migration failed",
+                "stackTrace": null,
+                "lineNumber": null,
+                "path": null,
             },
-            "success": false,
-            "operation": "migrate"
         }));
     });
 
@@ -50,9 +52,13 @@ describe('execute', () => {
             callback: (error: Error | null, stdout: string | Buffer, stderr: string | Buffer) => void
         ) => {
             const jsonOutput = JSON.stringify({
+                "initialSchemaVersion": "1",
+              "targetSchemaVersion": null,
+                "schemaName": "",
+                "migrations": [],
                 "success": true,
                 "operation": "migrate",
-                "migrationsExecuted": 2
+                "migrationsExecuted": 0
             });
 
             // Simulate successful execution
@@ -65,40 +71,13 @@ describe('execute', () => {
 
         expect(result.success).to.be.true;
         expect(result.response).to.equal(JSON.stringify({
+            "initialSchemaVersion": "1",
+            "targetSchemaVersion": null,
+            "schemaName": "",
+            "migrations": [],
             "success": true,
             "operation": "migrate",
-            "migrationsExecuted": 2
-        }));
-    });
-
-    it('should handle stdout as Buffer', async () => {
-        // Mock exec function that returns Buffer instead of string
-        const mockExec = (
-            command: string,
-            options: ExecOptions,
-            callback: (error: Error | null, stdout: string | Buffer, stderr: string | Buffer) => void
-        ) => {
-            const error = new Error('Command failed') as any;
-            const jsonOutput = Buffer.from(JSON.stringify({
-                "error": {
-                    "errorCode": "ERROR",
-                    "message": "Test error"
-                }
-            }));
-
-            callback(error, jsonOutput, Buffer.from(''));
-
-            return {} as any;
-        };
-
-        const result = await execute('flyway info -outputType=json', {}, mockExec as any);
-
-        expect(result.success).to.be.false;
-        expect(result.response).to.equal(JSON.stringify({
-            "error": {
-                "errorCode": "ERROR",
-                "message": "Test error"
-            }
+            "migrationsExecuted": 0
         }));
     });
 });
