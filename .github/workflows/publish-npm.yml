@@ -44,5 +44,8 @@ jobs:
       - name: Unit tests
         run: npm test
 
+      # npm refuses to publish a prerelease version (e.g. 0.0.13-terraware.1) without an explicit
+      # dist-tag. Our fork's versions are all prereleases of the upstream version they're based on,
+      # and each one is the version consumers should get, so publish it as `latest`.
       - name: Publish npm package
-        run: npm publish --provenance --access public
+        run: npm publish --provenance --access public --tag latest
