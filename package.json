@@ -1,6 +1,6 @@
 {
   "name": "@terraware/node-flyway",
-  "version": "0.0.13-terraware.1",
+  "version": "0.0.13-terraware.2",
   "description": "Terraformation fork of node-flyway: apply version control to databases from within a Node.js application.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
