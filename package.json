@@ -1,7 +1,7 @@
 {
-  "name": "node-flyway",
-  "version": "0.0.13",
-  "description": "Apply version control to databases from within a Node.js application.",
+  "name": "@terraware/node-flyway",
+  "version": "0.0.13-terraware.1",
+  "description": "Terraformation fork of node-flyway: apply version control to databases from within a Node.js application.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -45,7 +45,13 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/domdinnes/node-flyway",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terraware/node-flyway.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "flyway",
     "flywaydb",

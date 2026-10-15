@@ -1,5 +1,18 @@
 
 # Node Flyway
+
+> **Terraformation fork.** Published to npm as
+> [`@terraware/node-flyway`](https://www.npmjs.com/package/@terraware/node-flyway). It is
+> upstream [`domdinnes/node-flyway`](https://github.com/domdinnes/node-flyway) 0.0.13 plus a fix
+> that parses `flyway -outputType=json` errors from stdout rather than stderr
+> ([domdinnes/node-flyway#52](https://github.com/domdinnes/node-flyway/pull/52)). Once upstream
+> releases that fix, prefer upstream and deprecate this package.
+>
+> To release: bump `version` in `package.json` (e.g. `0.0.13-terraware.2`), merge, then push a
+> matching tag (`git tag v0.0.13-terraware.2 && git push origin v0.0.13-terraware.2`).
+> `.github/workflows/publish-npm.yml` builds, tests and publishes using npm trusted publishing
+> (GitHub Actions OIDC).
+
 <br>
 <br>
 <div align="center">
